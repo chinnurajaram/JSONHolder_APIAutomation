@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="JSONHolderTests" >
+   <test name="CommentsTests" >
+      <parameter name="validUsername" value="Delphine" />
+      <parameter name="invalidUsername" value="xyz" />
+      <parameter name="invalidPostId" value="200" />
+       <classes> 
+          <class name="ExecuteTests.CommentsTest" />
+       </classes>
+   </test>
+ </suite>
